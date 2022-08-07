@@ -322,14 +322,103 @@ footer h1{
     text-decoration: none;
     color: black;
     font-size: 16px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    height: 10vh;
+    /* font-family: Graphik!important; */
+}
+#need-nav .links .bottom{
+    border-bottom: 3px solid #E7332B;
+}
+#need-nav .links a:hover{
+    background-color: rgba(25, 118, 210, 0.05);
+}
+#need-nav .button a{
+    width: 150px;
 }
 #need-nav a button{
     background-color: #E7332B;
     border: transparent;
     color: white;
     width: 150px;
-    height: 45px;
-    border-bottom-right-radius: 6px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+}
+.short-div{
+    justify-content: flex-end;
+    min-height: 0.7vh;
+}
+.short-div img{
+    height: 50px;
+    width: 300px;
+}
+#need-one{
+    min-height: 80vh;
+}
+#need-one .left{
+    width: 60%;
+    height: 50vh;
+    padding-left: 110px;
+}
+#need-one .left h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#need-one .left span{
+    color: #E7332B;
+}
+#need-one .left img{
+    height: 35px;
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+#need-one .left h2{
+    color: #787878;
+    font-size: 19px;
+    width: 74%;
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-weight: 450;
+}
+#need-one .left button{
+    color: white;
+    height: 42px;
+    width: 220px;
+    border-bottom-right-radius: 10px;
+    margin-right: 15px;
+    border: transparent;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, 
+    rgb(0 0 0 / 14%) 0px 2px 2px 0px,
+     rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+#need-one .left .leftt{
+    background-color: #E7332B;
+}
+#need-one .left .right{
+    background-color: #585858;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+#need-one .right{
+    width: 40%;
+}
+#need-two{
+    min-height: 70vh;
+    background-image: url(../img/bgsection2.063bd869082548bafa74.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#need-two span{
+    color: #E7332B;
+}
+#need-two h3{
+    color: #787878;
 }
 /* END OF NEED.HTML */
 /*  font-size: 16px;
