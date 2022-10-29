@@ -324,4 +324,96 @@ font-family: 'Roboto Slab', serif; */
 #new-fifth .right img{
     height: 590px;
 }
+#new-sixth{
+    min-height: 180vh;
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    position: relative;
+}
+#new-sixth .top{
+    margin-bottom: 120px;
+}
+#new-sixth h2{
+    color: #E7332B;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+#new-sixth h1{
+    font-size: 40px;
+    color: #1b1a20;
+    font-weight: 700;
+    line-height: 50px;
+    width: 40%;
+    letter-spacing: .5px;
+}
+#new-sixth .arrow{
+    height: 150px;   
+    position: absolute;
+    left: 42%;
+    top: 200px;
+}
+#new-sixth .blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+#new-sixth .blocks .box{
+    background-color: #fff;
+    height: 330px;
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+#new-sixth .box h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b1a20;
+    margin-bottom: 25px;
+}
+#new-sixth .box img{
+    height: 45px;
+    margin-right: 10px;
+}
+#new-sixth .box .php,
+#new-sixth .box .bash,
+#new-sixth .box .aws{
+    height: 30px;
+}
+#new-sixth .box p{
+    color: #1b1a20;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 40px;
+}
+#new-sixth button{
+    background-color: #E7332B;
+    border: none;
+    outline: 0;
+    color: white;
+    height: 45px;
+    width: 170px;
+    border-radius: 30px;
+    margin: 40px 0;
+    font-size: 20px;
+}
+#new-sixth hr{
+    width: 95%;
+}
+#new-seventh{
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* END OF NEW.HTML */
