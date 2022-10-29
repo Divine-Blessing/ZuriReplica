@@ -3,7 +3,7 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif; */
-*, ::after, ::before{
+*, *::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -114,35 +114,44 @@ font-family: 'Roboto Slab', serif; */
     opacity: 0.9;
 }
 #three{
-    min-height: 70vh;
+    min-height: 50vh;
+    justify-content: flex-end;
 }
 #three .top{
+    width: 88%;
     display: flex;
+    justify-content: space-between;
 }
-#three .top .a, #three .top .b, #three .top .c, #three .top .d{
-    width: 250px;
+#three .a img{
+    height: 20px;
 }
 #three h1{
     font-size: 19px;
     color: #514949;
+    margin-bottom: 10px;
 }
 #three h2{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: normal;
-    width: 90%;
+    width: 80%;
     line-height: 23px;
+    color: #514949;
 }
 #three a{
     text-decoration: none;
     line-height: 40px;
+    font-weight: 500;
+    font-size: 15px;
     color: #E7332B;
+}
+#three a:hover{
+    color: #e7342bbe;
 }
 #three hr{
     height: 2px;
-    width: 1200px;
-}
-#three .top .d{
-    padding-left: 150px;
+    width: 89%;
+    background-color: #514949;
+    margin: 80px 0 30px 0;
 }
 #three .icons{
     width: 170px;
@@ -155,7 +164,6 @@ footer{
     min-height: 20vh;
 }
 footer h1{
-    padding-top: 10px;
     font-size: 17px;
     font-weight: 600;
     color: #514949;
@@ -171,7 +179,6 @@ footer h1{
     #one h1{
         font-size: 30px;
         margin-bottom: 30px;
-        /* font-weight: 600; */
     }
     #one h2{
         font-size: 16px;
@@ -383,163 +390,7 @@ footer h1{
 /* END OF INDEX.HTML */
 
 
-/* NEW.HTML */
-#newnav{
-    width: 100%;
-    min-height: 5vh;
-    padding: 10px 50px;
-    position: fixed;
-    background-color: white;
-}
-#newnav img{
-    height: 40px;
-}
-#newnav .links{
-    margin-left: 150px;
-}
-#newnav .links a{
-    color: #514949;
-    font-size: 20px;
-    margin-right: 50px;
-}
-#newnav .img-bg{
-    background-color: #E7332B;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-}
-#newnav .img-bg img{
-    height: 50px;
-}
-#newnav a button{
-    position: absolute;
-    right: 125px;
-    color: white;
-    background-color:#E7332B;
-    border: transparent;
-    width: 150px;
-    height: 48px;
-    font-size: 19px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-}
-/* first section for new.html */
-#new-first{
-    min-height: 120vh;
-}
-#new-first .left .ltop{
-    height: 350px;
-    margin-top: 150px;
-}
-#new-first .left .ldown{
-    position: absolute;
-    height: 60px;
-    bottom: 30px;
-}
-#new-first .mid {
-    margin-top: 150px;
-}
-#new-first .mid span{
-    color: #E7332B;
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-#new-first .mid h1{
-    color: #1b1a20;
-    font-weight: 600;
-    font-size: 45px;
-    text-align: center;
-    width: 92%;
-    letter-spacing: .6px;
-}
-#new-first .mid img{
-    height: 17px;
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
-#new-first .mid h2{
-    text-align: center;
-    font-size: 19px;
-    width: 63%;
-    line-height: 28px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-#new-first .mid button{
-    background-color: #E7332B;
-    color: white;
-    width: 155px;
-    height: 45px;
-    border: transparent;
-    border-radius: 35px;
-    font-size: 20px;
-}
-#new-first .mid .bot{
-    height: 120px;
-}
-#new-first .right img{
-    height: 400px;
-    margin-top: 150px;
-}
-#new-two{
-    min-height: 40vh;
-    padding: 0 70px;    
-}
-#new-two hr{
-    height: 1px;
-    width: 1200px;
-}
-#new-two .content h1{
-    font-size: 25px;
-    font-weight: 500;
-    width: 33%;
-    line-height: 35px;
-}
-#new-two .content img{
-    height: 200px;
-}
-#new-two .content h2{
-    font-size: 25px;
-    font-weight: 400;
-    text-align: right;
-    width: 30%;
-}
-#new-two .content a{
-    color: #43b97f;
-}
-#new-third{
-    min-height: 60vh;
-}
-#new-third .left{
-    padding-left: 80px;
-    width: 65%;
-}
-#new-third .left img{
-    height: 85px;
-}
-#new-third .left span{
-    color: #E7332B;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-#new-third .left h1{
-    font-size: 38px;
-    font-weight: 500;
-    width: 90%;
-}
-#new-third .right{
-    width: 35%;
-}
-#new-third .right img{
-    height: 200px;
-}
-#new-fourth{
-    min-height: 100vh;
-    background-color:linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0));
-}
-/* #new-fourth  */
-/* END OF NEW.HTML */
+
 
 
 
